@@ -998,7 +998,15 @@ ul .li {
   text-align: center;
 }
 
-.projects {
+.projects-1 {
+  display: flex;
+  /* background-color: aqua; */
+  margin-top: 50px;
+  justify-content: center;
+  column-gap: 40px;
+  /* justify-content: space-around; */
+}
+.projects-2 {
   display: flex;
   /* background-color: aqua; */
   margin-top: 50px;

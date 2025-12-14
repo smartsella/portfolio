@@ -101,3 +101,19 @@ document.querySelectorAll('nav a[href^="#"]').forEach((anchor) => {
     }
   });
 });
+
+//email msg send
+
+document.getElementById("form").addEventListener("submit", function () {
+  const popup = document.getElementById("pop-up");
+
+  // show success message
+  setTimeout(() => {
+    popup.style.display = "block";
+  }, 300);
+
+  // hide popup after 4 seconds
+  setTimeout(() => {
+    popup.style.display = "none";
+  }, 4000);
+});
